@@ -1,0 +1,16 @@
+{
+  "name": "replace-figma-text-styles",
+  "version": "1.0.0",
+  "description": "Replaces preset tailwind styles from one typeface to another",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "Furkan B (https://github.com/furkanb)",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "typescript": "*"
+  }
+}
